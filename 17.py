@@ -9,5 +9,3 @@ with open('17.txt') as f:
             answer.append(data[i] ** 2 + data[i + 1] ** 2)
 
 print(len(answer), max(answer))
-
-# просто сообщение
